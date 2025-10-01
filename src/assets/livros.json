@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "titulo": "Angular",
+    "categoria":"tecnologia",
+    "autor": "joão de castro"
+  },
+  {
+    "id": "2",
+    "titulo": "React",
+    "categoria":"tecnologia",
+    "autor": "joão lima"
+  },
+  {
+    "id": "3",
+    "titulo": "Python",
+    "categoria":"tecnologia",
+    "autor": "joão Vitor"
+  },
+  {
+    "id": "4",
+    "titulo": "Java",
+    "categoria":"tecnologia",
+    "autor": "joão josé"
+  }
+
+]

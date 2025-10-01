@@ -12,6 +12,7 @@ import { catchError } from 'rxjs/operators';
 
 export class CoursesComponent implements OnInit {
 
+<<<<<<< Updated upstream
   courses$: Observable<Course[]>;
   displayedColumns = ['name','category'];
 
@@ -23,6 +24,13 @@ export class CoursesComponent implements OnInit {
         return of([])
       })
     );
+=======
+  courses: Observable<Course[]>;
+  displayedColumns = ['id','name','category'];
+
+  constructor( private coursesService: CoursesService ) {
+    this.courses = this.coursesService.list();
+>>>>>>> Stashed changes
   }
 
   ngOnInit(): void {
