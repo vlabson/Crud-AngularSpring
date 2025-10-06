@@ -2,21 +2,21 @@
   {
     "id": "1",
     "name": "Angular",
-    "category":"Front-end"
+    "category":"front-end"
   },
   {
     "id":"2",
     "name": "React",
-    "category":"Front-end"
+    "category":"front-end"
   },
   {
     "id": "3",
     "name": "Vue",
-    "category":"Front-end"
+    "category":"front-end"
   },
   {
     "id":"4",
     "name": "Python",
-    "category":"Front-end"
+    "category":"back-end"
   }
 ]
