@@ -19,7 +19,9 @@ public class CourseController {
     //@RequestMapping(method = RequestMethod.GET)
     @GetMapping
     public List<Course> list(){
+
         return courseRepository.findAll();
+
     }
 
 

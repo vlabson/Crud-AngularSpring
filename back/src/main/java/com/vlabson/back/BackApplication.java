@@ -23,7 +23,7 @@ public class BackApplication {
             c.setName("Angular com Spring");
             c.setCategory("front-end");
 
-            courseRepository.save(new Course());
+            courseRepository.save(c);
        };
     }
 
