@@ -2,6 +2,7 @@
 
 # compiled output
 front/dist
+/front/.angular/
 /tmp
 /out-tsc
 # Only exists if Bazel was run
