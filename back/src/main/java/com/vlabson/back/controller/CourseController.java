@@ -3,9 +3,8 @@ package com.vlabson.back.controller;
 import com.vlabson.back.model.Course;
 import com.vlabson.back.repository.CourseRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,6 +21,12 @@ public class CourseController {
 
         return courseRepository.findAll();
 
+    }
+
+    @PostMapping
+    @ResponseStatus(code = HttpStatus.CREATED)
+    public Course create(@RequestBody Course course){
+        return courseRepository.save(course);
     }
 
 
